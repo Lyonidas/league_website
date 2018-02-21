@@ -1,0 +1,67 @@
+html { width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #22181c;
+    background-image: url(Images/League.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #114b5f;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', serif;
+    align-content: center;
+}
+h1 {
+    color: #f0f7f4;
+    text-align: center;
+}
+h2 {
+    color: #f0f7f4;
+    text-align: center;
+}
+p {
+    color: #f0f7f4;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 200%;
+}
+ol {
+    letter-spacing: 2px;
+    line-height: 200%;
+    color: #f0f7f4;
+    list-style: none;
+    text-align: center;
+}
+ul {
+    letter-spacing: 2px;
+    line-height: 200%;
+    color: #f0f7f4;
+    text-align: center;
+}
+img { display: block; margin: 0 auto; }
+.nav {
+    background-color: #1a936f;
+    color: #f0f7f4;
+    list-style: none;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+.nav > li {
+    display: inline-block;
+    padding-right: 50px;
+}
+.nav > li > a {
+    text-decoration: none;
+    color: #f0f7f4;
+}
+.nav > li > a:hover {
+    color: #33658A;
+}
+footer { text-align: center;
+    color: #f0f7f4;
+}
